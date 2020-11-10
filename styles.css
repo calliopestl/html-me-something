@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+}
+body {
+    background-color: lightseagreen;
+
+}
+h1 {
+    background-color: lightskyblue;
+    border-style: solid;
+    border-color: darkblue;
+    padding: 50px;
+
+
+}
+h2 {
+    border-style: dashed;
+    border-color: lightblue;
+   
+}
+h4 {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+    background-color: lightskyblue;
+    border-style: solid;
+    border-color: darkblue;
+    padding: 50px;
+    
+    
+}
+ul li:before {
+    content: "\200B"; /* added for accessibility */
+    content: '\22C6';
+    font-weight: bold;
+}
+
+ul li {
+    background-color: lightcoral;
+    padding: 5px;
+  
+}
+
+img {
+   
+}
