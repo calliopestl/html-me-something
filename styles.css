@@ -1,8 +1,14 @@
 * {
     text-align: center;
 }
+#maintitle {
+    background: url(./images/texture1.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+  }
 body {
     background-color: lightseagreen;
+    margin: 50px;
+  
 
 }
 h1 {
@@ -15,7 +21,7 @@ h1 {
 }
 h2 {
     border-style: dashed;
-    border-color: lightblue;
+    border-color: rgb(245, 192, 192);
    
 }
 h4 {
@@ -25,7 +31,8 @@ h4 {
 ul {
     list-style-position: inside;
     list-style-type: none;
-    background-color: lightskyblue;
+    background-image: url(./images/texture2.jpg);
+        background-repeat:repeat;
     border-style: solid;
     border-color: darkblue;
     padding: 50px;
@@ -44,6 +51,18 @@ ul li {
   
 }
 
-img {
-   
+div {
+    padding: 25px 50px 25px 50px;
+    
+}
+
+.even {
+    background-image: url(./images/texture2.jpg);
+    background-repeat:repeat;
+    border-style: solid;
+}
+
+.subhead {
+    border-style: solid;
+    border-color: lightcoral;
 }
